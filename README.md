@@ -22,16 +22,18 @@ Currently transitioning into AI-driven systems, combining product engineering wi
 
 ## 🚀 Featured Project
 
-### [SpendSense](https://github.com/gabriellerodriguescs/spendsense) — AI-Powered Finance Intelligence Platform *(in development)*
+### [SpendSense](https://github.com/gabriellerodriguescs/spendsense) — AI-Powered Finance Intelligence Platform
+
+**Live: [spendsense-kappa.vercel.app](https://spendsense-kappa.vercel.app)**
 
 Most finance apps show you data. SpendSense lets you *talk* to it.
 
-Connect your bank, ask *"how much did I spend on restaurants last month?"* or *"which week was my most expensive in Q1?"* — and get a real answer in plain English. No filters, no spreadsheets. Just your question and your data.
+Connect your bank, ask *"how much did I spend on restaurants last month?"* or *"which week was my most expensive in Q1?"* and get a real answer in plain English. No filters, no spreadsheets. Just your question and your data.
 
-Under the hood, SpendSense also automatically flags unusual transactions using statistical anomaly detection — the same approach used in real fraud detection systems — so you know when something looks off before your next statement.
+Under the hood, SpendSense also automatically flags unusual transactions using statistical anomaly detection the same approach used in real fraud detection systems so you know when something looks off before your next statement.
 
 **How it's built:**
-- Natural language queries powered by GPT-4o-mini text-to-SQL — user questions are safely converted into parameterized database queries and returned as plain English answers
+- Natural language queries powered by GPT-4o-mini text-to-SQL user questions are safely converted into parameterized database queries and returned as plain English answers
 - Anomaly detection using Z-score analysis per spending category, with real-time alert badges on the dashboard
 - Spending forecast using linear regression on 90-day transaction history to predict next month's spend per category
 - Full-stack architecture: Next.js + FastAPI + PostgreSQL + Redis, with Plaid sandbox for real-structured bank data
